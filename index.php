@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+     integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>SDP Project</title>
+</head>
+ 
+<body>
+   <div class="header" id="topheader">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container text-uppercase p-2">
+
+        <a class="navbar-brand font-weight-bold text-white " href="#">Zaid Shaikh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-uppercase">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicediv">Services</a>     
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pricingdiv">Price</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviewdiv">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactid">Contact</a>
+            </li>
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+   
+
+    <section class="header-section">
+        <div class= "center-div">
+            <h1 class="font-weight-bold">We are the Web Developers</h1>
+            <p>We Create the World's Best Websites.</p>
+            <div class="header-buttons">
+                <a href="#footerdiv">About us</a>
+                <a href="#contactid">Contact</a>
+            </div>
+            
+        </div>
+    </section>
+  </div>
+   
+   <!-- *************************************** Header Part Ends ***************************************** -->
+
+   <!-- *********************************** Three Header Div Starts ************************************** -->
+
+   <section class="header-extradiv">
+     <div class="container">
+       <div class="row">
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+              <a href="#"><i class="fa-3x fa fa-desktop" aria-hidden="true"></i></a>
+
+              <h2> EASY TO USE</h2>
+              <p>ZaidShaikh.com is as simple to use as a word processor. it uses an easy to navigate, point-and-
+                 click interface, so if you have decent computer skills, you'll do just fine.
+                 
+              </p>
+          </div>
+
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+            <a href="#"><i class="fa-3x fa fa-trophy" aria-hidden="true"></i></a>
+
+            <h2> AWESOME DESIGNS</h2>
+            <p>Now is the winter of our discontent. Made glorious summer by this sun of York. And all the clouds that lour'd upon our house
+               In the deep bosom of the ocean buried.
+            </p>
+          </div>
+
+        <div class=" extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-magic" aria-hidden="true"></i></a>
+
+          <h2>EASY TO CUSTOMIZE</h2>
+          <p>Now is the winter of our discontent. Made glorious summer by this sun of York. And all the clouds that lour'd upon our house
+             In the deep bosom of the ocean buried.
+          </p>
+        </div>
+
+        </div>
+     </div>
+   </section>
+
+   <!-- *********************************** Three Header ends ********************************** -->
+
+   <!-- ********************************** offer section starts ******************************** -->
+
+   <section class="serviceoffers" id="servicediv">
+     <div class="container headings text-center">
+       <h1 class="text-center font-weight-bold">WHAT DO WE OFFER</h1>
+       <p class="text-center">We offer Premium services that are friendly for your pocket without any compromise in quality.</p>
+     </div>
+
+     <div class="container">
+       <div class="row">
+          <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+            <div class="names my-3">
+              <h1>HTML</h1>
+              <div class="progress w-75">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100%</div>
+              </div>
+            </div>
+
+            <div class="names my-3">
+              <h1>CSS</h1>
+              <div class="progress w-75">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%">90%</div>
+              </div>
+            </div>
+
+            <div class="names my-3">
+              <h1>JAVASCRIPT</h1>
+              <div class="progress w-75">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:85%">85%</div>
+              </div>  
+            </div>
+
+            <div class="names my-3">
+              <h1>REACTJS</h1>
+              <div class="progress w-75">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:75%">75%</div>
+              </div>
+            </div>
+
+            <div class="names my-3">
+              <h1>NODEJS</h1>
+              <div class="progress w-75">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:80%">80%</div>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="col-lg-6 col-md-12 col-12 servicediv">
+            <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-lg-10 col-10">
+                 <h2>Website Development</h2>
+                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class="fa-3x fa fa-wifi" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-lg-10 col-10">
+                 <h2>Digital Marketing</h2>
+                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class="fa-3x fa fa-phone" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-lg-10 col-10">
+                 <h2>Support 24/7</h2>
+                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+              </div>
+            </div>
+
+          </div>
+       </div>
+     </div>
+
+   </section>
+
+   <!-- ********************************** offer section ends *********************************** -->
+
+   <!-- ********************************* project done start *************************************-->
+  
+   <section class="project-work">
+    <div class="container headings text-center">
+      <p class="text-center font-weight-bold">MORE THAN 2,000 WEBSITES CREATED</p>>
+    </div>
+
+    <div class="container d-flex justify-content-around align-items-center text-center">
+      <div>
+        <h1 class="count">1500</h1 >
+        <p>CMS Installation</p>
+      </div>
+
+      <div>
+        <h1 class="count">2500</h1>
+        <p>Awards Won</p>
+      </div>
+
+      <div>
+        <h1 class="count">700</h1>
+        <p>HappyClients</p>
+      </div>
+
+      <div>
+        <h1 class="count">500</h1>
+        <p>Working On</p>
+      </div>
+
+    </div>
+
+   </section>
+
+
+   <!-- ********************************* project done ends **************************************-->
+
+   <!-- ******************************** Our Best Pricing starts **************************************-->
+
+   <section class="pricing" id="pricingdiv">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold text-white">OUR BEST PRICING</h1>
+    </div>
+
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-4 col-12'>
+          <div class="card text-center">
+            <div class="card-header">BASIC</div>
+            <div class="card-body">
+              <li>$<span class="money" >20</span >/website</li>
+              <li>Responsive Websites</li>
+              <li>Domain Name Free</li>
+              <li>Mobile Friendly</li>
+              <li>Webmail Support</li>
+              <li>Customer Support 24/7</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class='col-lg-4 col-12 card-second'>
+          <div class="card text-center">
+            <div class="card-header">STANDARD</div>
+            <div class="card-body">
+              <li>$<span class="money" >40</span >/website</li>
+              <li>Responsive Websites</li>
+              <li>Domain Name Free</li>
+              <li>Mobile Friendly</li>
+              <li>Webmail Support</li>
+              <li>Customer Support 24/7</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class='col-lg-4 col-12'>
+          <div class="card text-center">
+            <div class="card-header">PREMIUM</div>
+            <div class="card-body">
+              <li>$<span class="money" >60</span >/website</li>
+              <li>Responsive Websites</li>
+              <li>Domain Name Free</li>
+              <li>Mobile Friendly</li>
+              <li>Webmail Support</li>
+              <li>Customer Support 24/7</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      
+      
+    </div>
+   </section>
+
+   <!-- ******************************** Our Best Pricing Ends **************************************-->
+   
+   <!-- ******************************** Our Happy Clients starts **************************************-->
+   
+   <section class="happyclients" id="reviewdiv">
+      <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold ">OUR HAPPY CLIENTS</h1>
+        <p class="text-capitalize pt-1">Our Satisfied Customer Says</p> 
+      </div>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/billgates.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                     I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Bill Gates</h1>
+                  <h2>Microsoft Corporation</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/timcook.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                     I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Tim cook</h1>
+                  <h2>Apple Inc.</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/elon_musk.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before.
+                      I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Elon Musk</h1>
+                  <h2>Tesla Motors</h2>
+                </div>
+              </div>
+              
+            </div>
+
+
+
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/Flipkart-Picture.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                     I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Flipkart</h1>
+                  <h2>Ecommerce Shopping</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/ritsh.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily. 
+                    The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                    I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Ritesh Agrawal</h1>
+                  <h2>CEO, OYO</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/MarkZuck.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily. 
+                    The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                    I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Mark Zuckerberg</h1>
+                  <h2>CEO, Facebook</h2>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/download.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                     I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Warren Buffet</h1>
+                  <h2>Berkshire Hathaway</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/domnicBarton.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before.
+                      I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Dominic Barton </h1>
+                  <h2>Mckinsey and Company</h2>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="images/RichardAllison.jpg" class="img-fluid img-thumbnail"></a>
+                  
+                  <p class="m-4">“I found my experience with ZaidShaikh.com to be relatively easy and I was able to sign up for a website quickly and easily.
+                     The tutorial videos helped me to become an expert web designer despite the fact I have never created a website before. 
+                     I am pleasantly surprised with the finishes product which took me several days, but I am happy with the end results.”
+
+                  </p>
+
+                  <h1>Richard Allison</h1>
+                  <h2>CEO, dominos</h2>
+                </div>
+              </div>
+                
+            </div>  
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+   </section>
+
+
+   <!-- ******************************** Our Happy Clients Ends **************************************-->
+
+   <!-- ******************************** Contact Us starts ***********************************-->
+
+   <section class="contactus" id="contactid">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold ">CONTACT US</h1>
+      <p class="text-capitalize pt-1">We're Here to help and answer any question you might have.</p> 
+    </div>
+
+    <div class='container'>
+      <div class="row">
+        <div class='col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1'>
+          <form action="connect.php" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Your Name" name="username" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Email" name="email" required autocomplete="off">
+            </div>
+
+        
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="Enter Mobile Number" name="mobile" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Enter Message" rows="4" name="comment"></textarea>
+            </div>
+            
+            <div class="d-flex justify-content-center form-button">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+   <!-- ******************************** Contact Us Ends **************************************-->
+
+   <!-- ******************************** Newsletter Start **************************************-->
+
+   <section class="newsletter" id="newsletterid">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">SUBSCRIBE TO OUR NEWSLETTER</h1> 
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-12">
+          <div class="input-group mb-3">
+          <input type="text" class="form-control news-input" placeholder="Your Email">
+            <div class="input-group-append">
+              <span class="input-group-text">Subscribe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </section>
+
+   <!-- ******************************** Newsletter Ends **************************************-->
+
+   <!-- ******************************** Footer starts **************************************-->
+   
+   <footer class="footersection" id="footerdiv">
+    <div class="container">
+     <div class="row">
+       
+       <div class="col-lg-4 col-md-6 col-12" id="footer-div">
+        <div>
+          <h3>ABOUT ZAID SHAIKH</h3>
+          <p>
+             Unlike most of the web development firms in the industry, ZAIDSHAIKH.com helps clients develop compelling stores
+              and then bring these stories into the marketplace through exceptional websites.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-12 footer-div text-center"> 
+        <div>
+          <h3>NAVIGATION LINKS</h3>
+          <li><a href="#">Home</a></li>
+          <li><a href="#servicediv">Services</a></li>
+          <li><a href="#pricingdiv">Price</a></li>
+          <li><a href="#reviewdiv">About</a></li>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12" footer-div>
+        <div>
+          <h3>NEWSLETTER</h3>
+          <p>REI, the recreational sports outfitter, is a model of success in several areas of content marketing
+             and their membership email is no exception.</p>
+
+           <div class="container newsletter-main">
+             <div class="row">
+               <div class="col-lg-12 col-12 mt-2">
+                 <div class="input-group mb-3">
+                 <input type="text" class="form-control news-input" placeholder="Your Email">
+                   <div class="input-group-append">
+                     <span class="input-group-text">Subscribe</span>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+          </div>
+      </div>
+
+     </div>
+
+     <div class="mt-5 text-center">
+       <p>Copyright @2019 all rights reserved | This Template is made wiht love by Shaikh Zaid</p>
+     </div>
+
+     <div class="scrolltop float-right">
+       <i class="fa fa-arrow-up" onclick="topFunction()" id="myBTN"></i>
+     </div>
+    </div> 
+   </footer>  
+
+   <!-- ******************************** Footer Ends **************************************-->
+    
+    <script src="javascript/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+     integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

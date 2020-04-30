@@ -609,7 +609,7 @@
      </div>
 
      <div class="mt-5 text-center">
-       <p>Copyright @2019 all rights reserved | This Template is made wiht love by Shaikh Zaid</p>
+       <p>Copyright @2019 all rights reserved | This Template is made with love by Shaikh Zaid</p>
      </div>
 
      <div class="scrolltop float-right">

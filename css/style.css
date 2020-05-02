@@ -199,6 +199,10 @@ i{
     text-align: center;
 }
 
+.counter {
+    display: flex;
+}
+
 
 /* ********************************* project work css Ends ********************************************* */
 
@@ -512,6 +516,10 @@ form:hover .form-button button{
     .pricing, .happyclients, contactus{
         height: auto;
         margin-top: 50px;
+    }
+
+    .counter {
+        flex-direction: column;
     }
 
     .card-second{

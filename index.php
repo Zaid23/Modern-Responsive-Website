@@ -118,7 +118,7 @@
        <p class="text-center">We offer Premium services that are friendly for your pocket without any compromise in quality.</p>
      </div>
 
-     <div class="container">
+     <div class="container offer">
        <div class="row">
           <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
             <div class="names my-3">
@@ -170,7 +170,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row ">
               <div class="col-lg-2 col-2 service-icons">
                 <i class="fa-3x fa fa-wifi" aria-hidden="true"></i>
               </div>
@@ -505,7 +505,7 @@
     <div class='container'>
       <div class="row">
         <div class='col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1'>
-          <form action="action.php" netlify>   <!-- "connect.php" method="post -->
+           <form action=""connect.php" method="post"> <!-- netlify -->
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Enter Your Name" name="username" required autocomplete="off">
             </div>

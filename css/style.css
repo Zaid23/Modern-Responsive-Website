@@ -518,12 +518,24 @@ form:hover .form-button button{
         margin-top: 50px;
     }
 
+    .serviceoffers{
+        margin: 50px 0px;
+        padding: 10px 5px;
+        text-align: justify;
+    }
+    
     .counter {
         flex-direction: column;
     }
 
     .card-second{
         transform: translateY(0);
+    }
+
+    .happyclients{
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
     }
 
     .headings h1{

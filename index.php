@@ -316,7 +316,7 @@
       </div>
 
       <div id="demo" class="carousel slide" data-ride="carousel">
-
+  
         <!-- Indicators -->
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -505,7 +505,7 @@
     <div class='container'>
       <div class="row">
         <div class='col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1'>
-          <form action="connect.php" method="post">
+          <form action="connect.php" method="post" netlify>
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Enter Your Name" name="username" required autocomplete="off">
             </div>

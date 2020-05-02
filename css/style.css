@@ -528,6 +528,10 @@ form:hover .form-button button{
         flex-direction: column;
     }
 
+    .offermargin {
+        padding: 50px 0 0 0;
+    }
+
     .card-second{
         transform: translateY(0);
     }
